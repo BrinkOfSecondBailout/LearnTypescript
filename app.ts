@@ -8,7 +8,11 @@ const person = {
     hobbies: ['Sports', 'Cooking']
 };
 
-let favoriteActivities: any[];
-favoriteActivities = ['Sports', 10];
+let favoriteActivities: string[];
+favoriteActivities = ['Sports'];
 
-console.log(person);
+// console.log(person);
+
+for (const hobby of person.hobbies) {
+    console.log(hobby.toUpperCase())
+}
