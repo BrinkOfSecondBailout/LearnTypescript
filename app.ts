@@ -8,7 +8,7 @@ const person = {
     hobbies: ['Sports', 'Cooking']
 };
 
-let favoriteActivities: string[];
-favoriteActivities = ['Sports'];
+let favoriteActivities: any[];
+favoriteActivities = ['Sports', 10];
 
 console.log(person);
