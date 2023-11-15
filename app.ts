@@ -1,6 +1,9 @@
-const person: object = {
+const person: {
+    name: string;
+    age: number
+} = {
     name: "Max",
     age: 30
 };
 
-console.log(person.nickname);
+console.log(person);
