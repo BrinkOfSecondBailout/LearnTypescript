@@ -14,21 +14,30 @@
 //     role: [2, 'author']
 // };
 
+const ADMIN = 0;
+const READ_ONLY = 1;
+const AUTHOR = 2;
+
 const person = {
     name: "Max",
     age: 30,
     hobbies: ['Sports', 'Cooking'],
-    role: 'READ ONLY USER'
+    role: ADMIN
 };
+
+if (person.role === ADMIN) {
+    console.log('is admin')
+}
+
 
 // person.role.push('admin');
 // person.role[1] = 'admin';
 
-let favoriteActivities: string[];
-favoriteActivities = ['Sports'];
+// let favoriteActivities: string[];
+// favoriteActivities = ['Sports'];
 
 // console.log(person);
 
-for (const hobby of person.hobbies) {
-    console.log(hobby.toUpperCase())
-}
+// for (const hobby of person.hobbies) {
+//     console.log(hobby.toUpperCase())
+// }
