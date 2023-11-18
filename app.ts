@@ -7,3 +7,10 @@ function printResult(num: number) {
 }
 
 printResult(add(5,12));
+
+let combineValues: Function;
+
+combineValues = add;
+
+
+console.log(combineValues(8, 8));
